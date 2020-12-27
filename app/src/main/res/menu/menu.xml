@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:orderInCategory="102"
+        app:showAsAction="always">
+
+    </item>
+
+
+    <item
+        android:id="@+id/Games"
+        android:icon="@drawable/ic_gamepad_black_24dp"
+        android:title="Games"
+        android:orderInCategory="110"
+        app:showAsAction="always">
+
+    </item>
+
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:orderInCategory="111"
+        app:showAsAction="never">
+
+    </item>
+
+
+
+</menu>
+
